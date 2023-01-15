@@ -1,0 +1,6 @@
+framework:
+    mailer:
+        dsn: '%env(MAILER_DSN)%'
+        #Globlal email
+        envelope:
+            sender: 'noreplay@will-coding.com'
